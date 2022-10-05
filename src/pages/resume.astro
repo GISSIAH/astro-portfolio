@@ -1,0 +1,39 @@
+---
+import ResumeItem from "../components/ResumeItem.astro";
+import Layout from "../layouts/layout.astro";
+---
+
+<Layout>
+  <div class="flex flex-col items-center text-center gap-6">
+    <!-- <h1 class="text-4xl font-bold">RESUME</h1> -->
+    <p class="text-gray-600 font-normal w-1/3 text-lg">
+      I started my software developing journey 2 years ago when I was writing my
+      final year project in college. I started learning python then I stumbled
+      upon JavaScript which got me interest in building web applications.
+    </p>
+    <h1 class="text-4xl font-bold">EDUCATION</h1>
+    <ResumeItem
+      title="Bsc Geo-Information Systems"
+      time="Aug 2016 to Jan 2021"
+      place="Malawi University of Science and Technology"
+    />
+    <h1 class="text-4xl font-bold">WORK EXPERIENCE</h1>
+    <div class="flex flex-col gap-12">
+      <ResumeItem
+        title="Software Engineer"
+        time="Aug 2022 to Current"
+        place="National Integrated Technologies Limited"
+      />
+      <ResumeItem
+        title="Software Developer Intern"
+        place="Malawi University of Science and Technology"
+        time="Mar 2020 to Jan 2021"
+      />
+      <ResumeItem
+        title="Geo-Information Systems Intern"
+        place="L.Gravam Consulting Services"
+        time="Aug 2019 to Dec 2019"
+      />
+    </div>
+  </div>
+</Layout>
