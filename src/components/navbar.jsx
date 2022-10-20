@@ -50,7 +50,7 @@ export default function Navbar() {
         <NavLink title="Contact" link="/contact" />
       </div>
 
-      <div className={` ${clicked ? "flex" : "hidden"} mt-4 flex gap-4 `}>
+      <div className={` ${clicked ? "flex" : "hidden"} mt-4 flex gap-4 md:flex`}>
         <a href="https://github.com/GISSIAH">
           <svg
             xmlns="http://www.w3.org/2000/svg"
