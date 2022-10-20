@@ -1,19 +1,30 @@
+---
 
+import Navbar from "../components/navbar.jsx"
+export interface Props {
+  page: string;
+}
 
+const { page } = Astro.props as Props;
+---
 
 <div class="flex flex-col">
-    <div class="flex justify-between px-16 py-2 items-center">
-        <h1 class="text-2xl font-bold tracking-widest">BRYAN</h1>
-        <div class="flex gap-8">
-            <a href="/resume" class="text-xl text-gray-900 font-normal hover:font-bold">Resume</a>
-            <a href="/contact" class="text-xl text-gray-900 font-normal hover:font-bold">Contact</a>
-        </div>
-        <div class="flex gap-4">
-            <p>github</p>
-            <p>linkedin</p>
-        </div>
-    </div>
-    <div class="flex flex-col gap-12 py-16">
-        <slot/>
-    </div>
+  <Navbar client:load/>
+  <div class="flex flex-col gap-12 py-16">
+    <slot />
+  </div>
 </div>
+
+<script>
+  const myFunction = () => {
+    console.log("clicked head");
+    var x = document.getElementById("myDIV");
+    if (x) {
+      if (x.style.display === "none") {
+        x.style.display = "block";
+      } else {
+        x.style.display = "none";
+      }
+    }
+  };
+</script>
