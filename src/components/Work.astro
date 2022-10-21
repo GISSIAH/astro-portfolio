@@ -20,7 +20,7 @@ const { title , techstack, desc, img } = Astro.props as Props;
         {desc}
     </p>
     <ul class="grid grid-cols-3 gap-3 md:gap-1">
-        {techstack.map(ts => (<p class="text-light border border-blue-400 rounded-xl px-2 py-1 md:text-sm md:px-1">{ts}</p>))}
+        {techstack.map(ts => (<p class="text-sm text-center text-light border border-blue-400 rounded-xl px-2 py-1 md:text-sm md:px-1">{ts}</p>))}
     </ul>
 
 </div>
