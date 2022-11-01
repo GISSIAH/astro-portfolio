@@ -7,20 +7,26 @@ import Layout from "../layouts/layout.astro";
 ---
 
 <Layout page="Home">
-  <div class="flex flex-col  md:flex-row md:justify-center">
+  <div class="flex flex-col md:flex-row md:justify-center">
     <div class="flex justify-center">
-      <img src={"https://res.cloudinary.com/attic-gis/image/upload/v1654206006/IMG_20220602_233259-min_yr4zct.jpg"} class="w-300 h-full" />
+      <img
+        src={"https://res.cloudinary.com/attic-gis/image/upload/v1654206006/IMG_20220602_233259-min_yr4zct.jpg"}
+        class="w-300 h-full"
+      />
     </div>
-    <div class="px-6 w-full flex flex-col gap-6 text-center items-center md:w-2/5 md:items-start md:text-left md:justify-center">
+    <div
+      class="px-6 w-full flex flex-col gap-6 text-center items-center md:w-2/5 md:items-start md:text-left md:justify-center"
+    >
       <h1
         class="text-5xl font-bold bg-clip-text bg-gradient-to-r from-blue-400 to-blue-200 text-transparent"
       >
         Hi I'M BRYAN
       </h1>
       <p class="text-lg font-normal">
-        I'm a Javascript developer based in Lilongwe, Malawi. I have over
-        2 years of professional experience and i specialize in creating web
-        apps. I also have worked  worked with other languages namely Kotlin, Python and C# .Im open to projects and work opportunities
+        I'm a Javascript developer based in Lilongwe, Malawi. I have over 2
+        years of professional experience and i specialize in creating web apps.
+        I also have worked worked with other languages namely Kotlin, Python and
+        C# .Im open to projects and work opportunities
       </p>
       <div class="flex gap-3">
         <a
@@ -40,7 +46,9 @@ import Layout from "../layouts/layout.astro";
   <div class="flex justify-center">
     <h1 class="text-4xl font-bold">Recent Projects</h1>
   </div>
-  <div class="px-4 flex flex-col gap-4 items-center md:flex-row md:px-4 md:justify-center">
+  <div
+    class="px-4 flex flex-col gap-4 items-center md:flex-row md:px-4 md:justify-center"
+  >
     <Work
       img={"https://res.cloudinary.com/attic-gis/image/upload/v1666336371/Screenshot_2022-10-21_091234_ydiisn.png"}
       title="Todo App"
@@ -50,11 +58,18 @@ import Layout from "../layouts/layout.astro";
     <Work
       img="https://res.cloudinary.com/attic-gis/image/upload/v1666336241/Screenshot_2022-10-21_091028_difvqp.png"
       title="Real Estate Marketing Website"
-      techstack={["Next JS", "Node Js",]}
+      techstack={["Next JS", "Node Js"]}
       desc="Listing real estate made. Built the backend using Node JS, with Mongo DB as the database and the used Next JS for the frontend"
     />
     <div class="flex flex-col gap-2">
-      <iframe  src="https://youtube.com/shorts/Sc9sSl7-AIc?feature=share" height="400" width="400" />
+      <iframe
+        width="400"
+        height="400"
+        src="https://www.youtube.com/embed/Sc9sSl7-AIc"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen></iframe>
     </div>
   </div>
 </Layout>
