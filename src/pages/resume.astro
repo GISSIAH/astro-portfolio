@@ -16,6 +16,7 @@ import Layout from "../layouts/layout.astro";
       title="Bsc Geo-Information Systems"
       time="Aug 2016 to Jan 2021"
       place="Malawi University of Science and Technology"
+      skills={[]}
     />
     <h1 class="text-4xl font-bold">WORK EXPERIENCE</h1>
     <div class="flex flex-col gap-12">
@@ -23,16 +24,19 @@ import Layout from "../layouts/layout.astro";
         title="Software Engineer"
         time="Aug 2022 to Current"
         place="National Integrated Technologies Limited"
+        skills={["React JS", "System Design", "Database Design", "API's", "React Native"]}
       />
       <ResumeItem
         title="Software Developer Intern"
         place="Malawi University of Science and Technology"
         time="Mar 2020 to Jan 2021"
+        skills={["System Design", "Database Design","Node Js"]}
       />
       <ResumeItem
         title="Geo-Information Systems Intern"
         place="L.Gravam Consulting Services"
         time="Aug 2019 to Dec 2019"
+        skills={["System Design", "Python"]}
       />
     </div>
     <h1 class="text-4xl font-bold">SKILLS</h1>
@@ -49,5 +53,7 @@ import Layout from "../layouts/layout.astro";
       <p class="text-lg font-normal">Tailwind CSS</p>
       <p class="text-lg font-normal">Git</p>
     </div>
+
+    <a href="/Bryan_Malunje_CV.pdf"><button class="rounded-sm px-3 py-1 bg-blue-500 hover:bg-blue-400 text-white">Download Resume</button></a>
   </div>
 </Layout>
