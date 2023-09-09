@@ -5,7 +5,6 @@ import Layout from "../layouts/layout.astro";
 // Full Astro Component Syntax:
 // https://docs.astro.build/core-concepts/astro-components/
 ---
-
 <Layout page="Home">
   <div class="flex flex-col md:flex-row md:justify-center">
     <div class="flex justify-center">
@@ -22,7 +21,7 @@ import Layout from "../layouts/layout.astro";
       >
         Hi I'M BRYAN
       </h1>
-      <p class="text-lg font-normal">
+      <p class="text-lg font-normal dark:text-slate-300">
         I'm Bryan Malunje a Javascript developer based in Lilongwe, Malawi. I
         have 3 years of professional experience and i specialize in
         creating Full stack web apps. I also work with other languages namely Typescript, Kotlin and Python. Im open to projects and work opportunities
@@ -30,12 +29,12 @@ import Layout from "../layouts/layout.astro";
       <div class="flex gap-3">
         <a
           href="/resume"
-          class="bg-blue-400 rounded-lg text-white px-3 py-2 hover:bg-blue-500"
+          class="bg-blue-400 rounded-lg text-white px-3 py-2 hover:bg-blue-500 dark:bg-blue-700 dark:hover:bg-blue-600"
           >VIEW RESUME</a
         >
         <a
           href="/contact"
-          class="outline outline-1 outline-blue-400 rounded-lg px-3 py-2 hover:outline-blue-500"
+          class="outline outline-1 outline-blue-400 rounded-lg px-3 py-2 hover:outline-blue-500 dark:text-slate-100 dark:outline-blue-700 dark:hover:outline-blue-600"
           >CONTACT ME</a
         >
       </div>
@@ -43,7 +42,7 @@ import Layout from "../layouts/layout.astro";
   </div>
 
   <div class="flex justify-center">
-    <h1 class="text-4xl font-bold">Recent Projects</h1>
+    <h1 class="text-4xl font-bold dark:text-slate-100">Recent Projects</h1>
   </div>
   <div
     class="px-4 flex flex-col gap-4 items-center md:flex-row md:px-4 md:justify-center"
@@ -56,7 +55,7 @@ import Layout from "../layouts/layout.astro";
     >
       <a
         href="https://todo.gissiah.vercel.app/"
-        class="bg-blue-600 rounded-full px-3 py-1 w-32 cursor-pointer text-white hover:bg-blue-500"
+        class="bg-blue-600 rounded-full px-3 py-1 w-32 cursor-pointer text-white hover:bg-blue-500 dark:bg-blue-700 dark:hover:bg-blue-600"
         >Open App</a
       >
     </Work>
@@ -68,7 +67,7 @@ import Layout from "../layouts/layout.astro";
     >
       <a
         href="https://zamalo.vercel.app"
-        class="bg-blue-600 rounded-full px-3 py-1 w-32 cursor-pointer text-white hover:bg-blue-500"
+        class="bg-blue-600 rounded-full px-3 py-1 w-32 cursor-pointer text-white hover:bg-blue-500 dark:bg-blue-700 dark:hover:bg-blue-600"
         >Open App</a
       >
     </Work>

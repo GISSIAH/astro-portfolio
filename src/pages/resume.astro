@@ -6,20 +6,20 @@ import Layout from "../layouts/layout.astro";
 <Layout page="Resume">
   <div class="flex flex-col items-center text-center gap-6 px-4">
     <!-- <h1 class="text-4xl font-bold">RESUME</h1> -->
-    <p class="text-gray-600 font-normal px-4  text-lg md:w-2/3">
+    <p class="text-gray-600 font-normal px-4 dark:text-slate-300  text-lg md:w-2/3">
       I started my software developing journey 2 years ago when I was writing my
       final year project in college. I started learning python then I stumbled
       upon JavaScript which got me interest in building web applications.
     </p>
-    <h1 class="text-4xl font-bold">EDUCATION</h1>
+    <h1 class="text-4xl font-bold dark:text-slate-100">EDUCATION</h1>
     <ResumeItem
       title="Bsc Geo-Information Systems"
       time="Aug 2016 to Jan 2021"
       place="Malawi University of Science and Technology"
       skills={[]}
     />
-    <h1 class="text-4xl font-bold">WORK EXPERIENCE</h1>
-    <div class="flex flex-col gap-12">
+    <h1 class="text-4xl font-bold dark:text-slate-100">WORK EXPERIENCE</h1>
+    <div class="flex flex-col gap-12 md:flex-row md:justify-center md:flex-wrap">
       <ResumeItem
         title="Frontend Engineer"
         time="May 2023 to Current"
@@ -45,7 +45,7 @@ import Layout from "../layouts/layout.astro";
         skills={["System Design", "Python"]}
       />
     </div>
-    <h1 class="text-4xl font-bold">SKILLS</h1>
+    <h1 class="text-4xl font-bold dark:text-slate-100">SKILLS</h1>
     <div class="grid grid-cols-2 gap-6 md:grid-cols-3">
       <p class="text-lg font-normal">JavaScript</p>
       <p class="text-lg font-normal">TypeScript</p>
