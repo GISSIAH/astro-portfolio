@@ -8,7 +8,7 @@ export default function Navbar() {
   return (
     <div className="flex flex-col px-10 md:flex-row md:justify-between md:px-16 md:py-2 md:items-center">
       <div className="flex justify-between py-3 items-center">
-        <a className="text-2xl font-bold tracking-widest dark:text-gray-100">BRYAN</a>
+        <a className="text-2xl font-bold tracking-widest text-slate-800 dark:text-gray-100">BRYAN</a>
         <button onClick={handleMenu}>
           {clicked ? (
             <svg
