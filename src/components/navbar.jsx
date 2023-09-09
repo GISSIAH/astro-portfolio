@@ -17,7 +17,7 @@ export default function Navbar() {
               viewBox="0 0 24 24"
               strokeWidth={1.5}
               stroke="currentColor"
-              className="w-6 h-12 cursor-pointer md:hidden"
+              className="w-6 h-12 cursor-pointer md:hidden dark:text-white"
             >
               <path
                 strokeLinecap="round"
@@ -32,7 +32,7 @@ export default function Navbar() {
               viewBox="0 0 24 24"
               strokeWidth={1.5}
               stroke="currentColor"
-              className="w-6 h-12 cursor-pointer md:hidden"
+              className="w-6 h-12 cursor-pointer md:hidden dark:text-white"
             >
               <path
                 strokeLinecap="round"
